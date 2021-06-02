@@ -1,0 +1,51 @@
+{
+  "name": "vite-plugin-react-css-modules",
+  "version": "1.0.0",
+  "description": "A vitejs plugin to use babel-plugin-react-css-modules",
+  "files": [
+    "src/*"
+  ],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "react-css-modules",
+    "css-modules",
+    "vite-plugin",
+    "vitejs"
+  ],
+  "author": "fchengjin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.6.2",
+    "@types/react-css-modules": "^4.6.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "postcss-less": "^4.0.1",
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.6"
+  },
+  "peerDependencies": {
+    "vite": "^2.3.6"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "babel-plugin-react-css-modules": "^5.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fchengjin/vite-plugin-react-css-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fchengjin/vite-plugin-react-css-module/issues"
+  },
+  "homepage": "https://github.com/fchengjin/vite-plugin-react-css-module/tree/master#readme"
+}
