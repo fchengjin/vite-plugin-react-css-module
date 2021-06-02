@@ -5,6 +5,7 @@ function reactCssModulePlugin(opt) {
     name: "vite-plugin-react-css-module",
     enforce: "pre",
     transform(code, id) {
+      // modified from https://github.com/vitejs/vite/blob/main/packages/plugin-react-refresh/index.js
       if (!/\.(t|j)sx?$/.test(id) || id.includes("node_modules")) {
         return;
       }
